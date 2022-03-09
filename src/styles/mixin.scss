@@ -1,0 +1,19 @@
+$namespace: 'el-';
+$state-prefix: 'is-';
+@mixin classModule($block) {
+	$B: $namespace + $block !global;
+
+	.#{$B} {
+		@content;
+		box-sizing: border-box;
+	}
+
+}
+
+@mixin when($state) {
+	@at-root {
+		&.#{$state-prefix + $state} {
+			@content
+		}
+	}
+}

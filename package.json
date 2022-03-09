@@ -13,6 +13,7 @@
   "dependencies": {
     "async-validator": "^4.0.7",
     "mitt": "^3.0.0",
+    "sass": "^1.49.9",
     "vue": "^3.2.16"
   },
   "devDependencies": {
