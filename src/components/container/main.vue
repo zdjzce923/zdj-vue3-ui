@@ -1,7 +1,10 @@
 <template>
-	<main class="el-main" :style="{ 'height': height, 'width': width }">
-		<slot />		
-	</main>
+  <main
+    class="el-main"
+    :style="{ 'height': height, 'width': width }"
+  >
+    <slot />		
+  </main>
 </template>
 
 <script lang="ts">

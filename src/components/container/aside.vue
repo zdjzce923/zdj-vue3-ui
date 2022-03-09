@@ -1,7 +1,10 @@
 <template>
-	<aside class="el-aside" :style="{ 'height': height, 'width': width }">
-		<slot />		
-	</aside>
+  <aside
+    class="el-aside"
+    :style="{ 'height': height, 'width': width }"
+  >
+    <slot />		
+  </aside>
 </template>
 
 <script lang="ts">
@@ -12,7 +15,6 @@ export default {
 
 
 <script setup lang="ts">
-import { withDefaults } from 'vue'
 
 interface Props {
 	height?: string,

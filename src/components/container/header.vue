@@ -1,7 +1,10 @@
 <template>
-	<header class="el-header" :style="{ 'height': height, 'width': width }">
-		<slot />		
-	</header>
+  <header
+    class="el-header"
+    :style="{ 'height': height, 'width': width }"
+  >
+    <slot />		
+  </header>
 </template>
 
 <script lang="ts">

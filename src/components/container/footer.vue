@@ -1,7 +1,10 @@
 <template>
-	<footer class="el-footer" :style="{ 'height': height, 'width': width }">
-		<slot />		
-	</footer>
+  <footer
+    class="el-footer"
+    :style="{ 'height': height, 'width': width }"
+  >
+    <slot />		
+  </footer>
 </template>
 
 <script lang="ts">
@@ -12,7 +15,6 @@ export default {
 
 
 <script setup lang="ts">
-import { withDefaults } from 'vue'
 
 interface Props {
 	height?: string,
